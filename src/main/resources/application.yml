@@ -19,7 +19,7 @@ spring:
           predicates:
             - Path=/books/**
         - id: order-route
-          uri: ${ORDER_SERVICE_URL:http:/ /localhost:9002}/orders
+          uri: ${ORDER_SERVICE_URL:http://localhost:9002}/orders
           predicates:
             - Path=/orders/**
 
